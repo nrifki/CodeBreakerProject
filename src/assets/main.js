@@ -61,7 +61,7 @@ function setMessage(message) {
 function showAnswer(success) {
     let code = document.getElementById('code');
     if(success) {
-        code.className += ' sucess';
+        code.className += ' success';
     } else {
         code.className += ' failure';
     }
